@@ -2,6 +2,7 @@
 resolver = "2"
 members = [
   "crates/monad-repo-model",
+  "crates/monad-repo-discovery",
 ]
 
 [workspace.package]

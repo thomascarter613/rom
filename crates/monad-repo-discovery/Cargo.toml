@@ -1,0 +1,12 @@
+[package]
+name = "monad-repo-discovery"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Static repository resource discovery for Monad OS repository control plane exploration"
+
+[dependencies]
+monad-repo-model = { path = "../monad-repo-model" }
+
+[dev-dependencies]
+tempfile = "3"
