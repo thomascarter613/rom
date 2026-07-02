@@ -4,6 +4,7 @@ members = [
   "crates/monad-repo-model",
   "crates/monad-repo-discovery",
   "crates/monad-repo-artifacts",
+  "crates/monad-repo-cli",
 ]
 
 [workspace.package]

@@ -1,0 +1,23 @@
+[package]
+name = "monad-repo-cli"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "CLI for Monad OS repository control plane exploration"
+
+[[bin]]
+name = "monad"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+monad-repo-artifacts = { path = "../monad-repo-artifacts" }
+monad-repo-discovery = { path = "../monad-repo-discovery" }
+monad-repo-model = { path = "../monad-repo-model" }
+serde_json = "1"
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "3"
+tempfile = "3"

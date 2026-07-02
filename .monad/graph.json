@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1",
+  "nodes": [
+    {
+      "id": "repository:root",
+      "kind": "repository",
+      "label": "root",
+      "path": "."
+    },
+    {
+      "id": "documentation:00-index",
+      "kind": "documentation",
+      "label": "00-index",
+      "path": "docs/00-index.md"
+    },
+    {
+      "id": "documentation:architecture",
+      "kind": "documentation",
+      "label": "architecture",
+      "path": "docs/architecture"
+    },
+    {
+      "id": "documentation:planning",
+      "kind": "documentation",
+      "label": "planning",
+      "path": "docs/planning"
+    },
+    {
+      "id": "documentation:product",
+      "kind": "documentation",
+      "label": "product",
+      "path": "docs/product"
+    },
+    {
+      "id": "documentation:repository",
+      "kind": "documentation",
+      "label": "repository",
+      "path": "docs/repository"
+    },
+    {
+      "id": "documentation:work-packets",
+      "kind": "documentation",
+      "label": "work-packets",
+      "path": "docs/work-packets"
+    }
+  ],
+  "edges": [
+    {
+      "from": "repository:root",
+      "to": "documentation:00-index",
+      "type": "contains"
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:architecture",
+      "type": "contains"
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:planning",
+      "type": "contains"
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:product",
+      "type": "contains"
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:repository",
+      "type": "contains"
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:work-packets",
+      "type": "contains"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.1",
+  "generated_by": "monad",
+  "resources": [
+    {
+      "id": "repository:root",
+      "kind": "repository",
+      "name": "root",
+      "path": ".",
+      "lifecycle": "unknown",
+      "owners": [],
+      "source": "discovered",
+      "metadata": {
+        "description": "Repository root"
+      },
+      "spec": {},
+      "actions": {}
+    },
+    {
+      "id": "documentation:00-index",
+      "kind": "documentation",
+      "name": "00-index",
+      "path": "docs/00-index.md",
+      "lifecycle": "unknown",
+      "owners": [],
+      "source": "discovered",
+      "metadata": {},
+      "spec": {},
+      "actions": {}
+    },
+    {
+      "id": "documentation:architecture",
+      "kind": "documentation",
+      "name": "architecture",
+      "path": "docs/architecture",
+      "lifecycle": "unknown",
+      "owners": [],
+      "source": "discovered",
+      "metadata": {},
+      "spec": {},
+      "actions": {}
+    },
+    {
+      "id": "documentation:planning",
+      "kind": "documentation",
+      "name": "planning",
+      "path": "docs/planning",
+      "lifecycle": "unknown",
+      "owners": [],
+      "source": "discovered",
+      "metadata": {},
+      "spec": {},
+      "actions": {}
+    },
+    {
+      "id": "documentation:product",
+      "kind": "documentation",
+      "name": "product",
+      "path": "docs/product",
+      "lifecycle": "unknown",
+      "owners": [],
+      "source": "discovered",
+      "metadata": {},
+      "spec": {},
+      "actions": {}
+    },
+    {
+      "id": "documentation:repository",
+      "kind": "documentation",
+      "name": "repository",
+      "path": "docs/repository",
+      "lifecycle": "unknown",
+      "owners": [],
+      "source": "discovered",
+      "metadata": {},
+      "spec": {},
+      "actions": {}
+    },
+    {
+      "id": "documentation:work-packets",
+      "kind": "documentation",
+      "name": "work-packets",
+      "path": "docs/work-packets",
+      "lifecycle": "unknown",
+      "owners": [],
+      "source": "discovered",
+      "metadata": {},
+      "spec": {},
+      "actions": {}
+    }
+  ],
+  "relationships": [
+    {
+      "from": "repository:root",
+      "to": "documentation:00-index",
+      "type": "contains",
+      "source": "discovered",
+      "metadata": {}
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:architecture",
+      "type": "contains",
+      "source": "discovered",
+      "metadata": {}
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:planning",
+      "type": "contains",
+      "source": "discovered",
+      "metadata": {}
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:product",
+      "type": "contains",
+      "source": "discovered",
+      "metadata": {}
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:repository",
+      "type": "contains",
+      "source": "discovered",
+      "metadata": {}
+    },
+    {
+      "from": "repository:root",
+      "to": "documentation:work-packets",
+      "type": "contains",
+      "source": "discovered",
+      "metadata": {}
+    }
+  ],
+  "warnings": []
+}
